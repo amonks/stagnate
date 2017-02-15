@@ -6,6 +6,8 @@
   },
   "devDependencies": {
     "browser-sync": "^2.18.8",
-    "nodemon": "^1.11.0"
+    "marked": "^0.3.6",
+    "nodemon": "^1.11.0",
+    "shelljs": "^0.7.6"
   }
 }

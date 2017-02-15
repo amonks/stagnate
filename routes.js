@@ -1,17 +1,15 @@
+const data = require('./data')
 const Post = require('./components/Post')
 const PostList = require('./components/PostList')
-const Index = require('./pages/Index')
+const Home = require('./components/Home')
 const Page = require('./components/Page')
 
-const data = require('./data')
-
 const mainRoutes = {
-  'index.html': Page(Index()),
-  'posts.html': Page(PostList(data.posts))
+  'index.html': Page(Home),
+  'posts.html': Page(PostList)
 }
 
 const postRoutes = {}
-// add each post to that object ^
 data.posts.forEach(post => {
   postRoutes[`${post.slug}.html`] = Page(Post(post))
 })

@@ -1,4 +1,4 @@
-const Index = () => `
+const Index = `
   Home page! Hello!
 `
 

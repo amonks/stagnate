@@ -1,3 +1,4 @@
+const data = require('../data')
 const all = require('../util/all')
 const Link = require('./Link')
 
@@ -13,5 +14,5 @@ const PostList = posts => `
   </ul>
 `
 
-module.exports = PostList
+module.exports = PostList(data.posts)
 
