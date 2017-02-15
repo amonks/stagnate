@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "node build.js",
+    "serve": "cd build && serve",
+    "dev": "nodemon build.js & cd build; browser-sync start --server"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "nodemon": "^1.11.0"
+  }
+}
