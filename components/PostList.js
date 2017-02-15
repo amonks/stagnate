@@ -14,5 +14,5 @@ const PostList = posts => `
   </ul>
 `
 
-module.exports = PostList(data.posts)
+module.exports = () => PostList(data.posts)
 

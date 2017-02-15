@@ -5,8 +5,8 @@ const Home = require('./components/Home')
 const Page = require('./components/Page')
 
 const mainRoutes = {
-  'index.html': Page(Home),
-  'posts.html': Page(PostList)
+  'index.html': Page(Home()),
+  'posts.html': Page(PostList())
 }
 
 const postRoutes = {}

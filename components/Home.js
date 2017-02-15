@@ -1,6 +1,6 @@
-const Index = `
+const Home = () => `
   Home page! Hello!
 `
 
-module.exports = Index
+module.exports = Home
 
